@@ -40,7 +40,7 @@ I love to do anything with computer like solving the competitive programming pro
 - Git
 - Docker
 
-### Graphic Design Skills
+### Graphic Designer Skills
 
 ##### Tools
 
