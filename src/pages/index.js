@@ -61,7 +61,7 @@ export default function Home({ posts }) {
                           {summary}
                         </div>
                       </div>
-                      <div className="text-base font-medium leading-6 hover:underline flex justify-end">
+                      <div className="text-base font-medium leading-6 flex justify-end">
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
