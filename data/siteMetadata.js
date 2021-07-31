@@ -9,9 +9,9 @@ const siteMetadata = {
   siteRepo: 'https://github.com/1tpp/1tpp-blog-next',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
   email: 'contact@1tpp.com',
   github: 'https://github.com/1tpp',
+  twitter: 'https://twitter.com/_1tpp',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics

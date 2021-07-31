@@ -57,7 +57,7 @@ const MobileNav = () => {
           className="fixed w-full h-full cursor-auto focus:outline-none"
           onClick={onToggleNav}
         ></button>
-        <nav className="fixed h-full mt-8 items-right">
+        <nav className="fixed items-right h-full mt-8">
           {headerNavLinks.map((link) => (
             <div key={link.title} className="px-12 py-4">
               <Link
