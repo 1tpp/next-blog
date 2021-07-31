@@ -33,7 +33,7 @@ export default function Home({ posts }) {
             return (
               <li key={slug} className="py-12">
                 <article>
-                  <div className="space-y-2 flex xl:space-y-0 xl:items-baseline">
+                  <div className="space-y-2 xl:space-y-0 xl:items-baseline">
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
@@ -51,7 +51,7 @@ export default function Home({ posts }) {
                               <time dateTime={date}>{formatDate(date)}</time>
                             </dd>
                           </dl>
-                          <div className="flex flex-wrap items-center mt-3">
+                          <div className="flex flex-wrap mt-3">
                             {tags.map((tag) => (
                               <Tag key={tag} text={tag} />
                             ))}
@@ -61,7 +61,7 @@ export default function Home({ posts }) {
                           {summary}
                         </div>
                       </div>
-                      <div className="text-base font-medium leading-6 text-right hover:underline">
+                      <div className="text-base font-medium leading-6 hover:underline flex justify-end">
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
