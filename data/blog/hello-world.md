@@ -16,11 +16,11 @@ I love to do anything with computer like solving the competitive programming pro
 
 ##### Programming Language
 
-- Html | CSS (Intermediate)
-- C/C++ (Intermediate)
-- Python (Intermediate)
-- JavaScript | TypeScript (Intermediate)
-- Rust (Beginner)
+- Html | CSS
+- C/C++
+- Python
+- JavaScript | TypeScript
+- Rust
 
 ##### Frameworks
 
