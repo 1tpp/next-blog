@@ -1,16 +1,16 @@
 ---
 title: Hello, World!
 date: '2021-08-01'
-tags: []
+tags: ['hello world']
 draft: false
-summary: Introduce to me
+summary: Introduce myself.
 ---
 
 ## About Me
 
 My name is Panapat Pilapa.
-Now, I am a senior student in computer department, Ubon Ratchathani Technical College (UTC)
-I love to do anything with computer like solving the competitive programming problem, develop the website and mobile application, robotics and also interest in the scope of AI and Data Science.
+Currently, I am a senior student in computer department, Ubon Ratchathani Technical College (UTC)
+I love to do anything with computer like solving the competitive programming problem, develop the website and mobile application, robotics and also interest in the scope of artificial intelligence and data science.
 
 ### Software Developer Skills
 
