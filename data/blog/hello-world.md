@@ -16,23 +16,23 @@ I love to do anything with computer like solving the competitive programming pro
 
 ##### Programming Language
 
-- Html | CSS
 - C/C++
 - Python
-- JavaScript | TypeScript
 - Rust
+- Java
+- Html | CSS
+- JavaScript | TypeScript
 
 ##### Frameworks
 
 - Frontend:
 
-  - Vue.Js
+  - VueJS
   - React (NextJS)
   - Svelte
 
 - Backend:
-
-  - Node (ExpressJS, NestJS)
+  - NodeJS (ExpressJS, NestJS)
   - MongoDB
 
 ##### Tools
