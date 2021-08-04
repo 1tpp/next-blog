@@ -46,16 +46,16 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             </svg>
           </div>
         </div>
-        <ul>
+        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!filteredBlogPosts.length && <div className="mt-8 text-center">No posts found.</div>}
           {displayPosts.map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
               <li key={slug} className="py-4">
-                <article className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-center ">
+                <article className=" space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-center ">
                   <dl>
                     <dt className="sr-only">Published on</dt>
-                    <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                    <dd className="xl:text-center text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                       <time dateTime={date}>{formatDate(date)}</time>
                     </dd>
                   </dl>
