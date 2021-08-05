@@ -1,9 +1,9 @@
-import Link from '../components/Link'
-import PageTitle from '../components/PageTitle'
-import SectionContainer from '../components/SectionContainer'
-import { BlogSeo } from '../components/SEO'
-import Image from '../components/Image'
-import Tag from '../components/Tag'
+import Link from '@/components/Link'
+import PageTitle from '@/components/PageTitle'
+import SectionContainer from '@/components/SectionContainer'
+import { BlogSeo } from '@/components/SEO'
+import Image from '@/components/Image'
+import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
