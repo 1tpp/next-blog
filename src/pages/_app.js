@@ -1,4 +1,4 @@
-import '../styles/tailwind.css'
+import '@/styles/tailwind.css'
 
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
