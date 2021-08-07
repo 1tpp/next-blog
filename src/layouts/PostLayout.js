@@ -42,7 +42,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             className="pb-8 divide-y divide-gray-200 xl:divide-y-0 dark:divide-gray-700 xl:grid"
             style={{ gridTemplateRows: 'auto 1fr' }}
           >
-            <div className="xl:pb-0 xl:col-span-3 xl:row-span-2">
+            <div>
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
               <div className="pt-6 pb-6 text-sm text-center text-gray-700 dark:text-gray-300">
                 <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
@@ -63,7 +63,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </div>
                 )}
                 {(next || prev) && (
-                  <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
+                  <div className="flex justify-between">
                     {prev && (
                       <div>
                         <h2 className="text-xs tracking-wide text-gray-500 uppercase dark:text-gray-400">
@@ -76,7 +76,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     )}
                     {next && (
                       <div>
-                        <h2 className="text-xs  tracking-wide text-gray-500 uppercase dark:text-gray-400">
+                        <h2 className="text-xs tracking-wide text-gray-500 uppercase dark:text-gray-400">
                           Next Article
                         </h2>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
