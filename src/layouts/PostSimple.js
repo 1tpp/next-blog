@@ -1,9 +1,9 @@
-import Link from '../components/Link'
-import PageTitle from '../components/PageTitle'
-import SectionContainer from '../components/SectionContainer'
-import { BlogSeo } from 'src/components/SEO'
+import Link from '@/components/Link'
+import PageTitle from '@/components/PageTitle'
+import SectionContainer from '@/components/SectionContainer'
+import { BlogSeo } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
-import formatDate from '../lib/utils/formatDate'
+import formatDate from '@/lib/utils/formatDate'
 
 export default function PostLayout({ frontMatter, next, prev, children }) {
   const { date, title } = frontMatter
