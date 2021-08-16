@@ -49,9 +49,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               </div>
             </div>
             <footer>
-              <div className="text-sm font-medium leading-5 xl:col-start-1 xl:row-start-2">
+              <div className="text-sm font-medium space-y-8 leading-5 xl:col-start-1 xl:row-start-2">
                 {tags && (
-                  <div className="py-4 xl:py-8">
+                  <div>
                     <h2 className="text-xs tracking-wide text-gray-500 uppercase dark:text-gray-400">
                       Tags
                     </h2>
@@ -87,7 +87,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </div>
                 )}
               </div>
-              <div className="pt-4 xl:pt-8">
+              <div className="pt-8">
                 <Link
                   href="/blog"
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
