@@ -31,7 +31,7 @@ export default function Home({ posts }) {
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
-              <li key={slug} className="py-8">
+              <li key={slug} className="py-4">
                 <article>
                   <div className="space-y-2 xl:space-y-0 xl:items-baseline">
                     <div className="xl:col-span-3">
@@ -47,11 +47,6 @@ export default function Home({ posts }) {
                             <time dateTime={date}>{formatDate(date)}</time>
                           </dd>
                         </dl>
-                        <div className="flex flex-wrap">
-                          {tags.map((tag) => (
-                            <Tag key={tag} text={tag} />
-                          ))}
-                        </div>
                       </div>
                       <div className="prose text-gray-500 max-w-none dark:text-gray-400">
                         {summary}
